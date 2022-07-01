@@ -1,28 +1,23 @@
 #include <stdio.h>
+
 /**
  * main - Entry point
  *
  * Return: Always 0 (Success)
  */
-
 int main(void)
-
 {
-	char alphabet;
+	int i = 97;
 
-	for (alphabet = "a"; alphabet <= "z"; alphabet++)
+	while (i < 123)
 	{
-		if (alphabet == "q")
-			continue;
-
-		else if (alphabet == "e")
-			continue;
-
-		putchar(alphabet);
+		if (i != 101 && i != 113)
+		{
+			putchar(i);
+		}
+		i++;
 	}
-
-	putchar("\n");
+	putchar(10);
 
 	return (0);
-
 }
