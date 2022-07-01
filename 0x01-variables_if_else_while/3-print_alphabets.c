@@ -1,28 +1,31 @@
 #include <stdio.h>
+
 /**
  * main - Entry point
  *
  * Return: Always 0 (Success)
  */
+
 int main(void)
-
 {
-	char lower_case;
-	char upper_case;
+	int i, j;
 
-	for (lower_case = "a"; lower_case <= "z"; lower_case++)
+	i=97;
+	j=65;
+
+	while (i < 123)
 	{
-		putchar(lower_case);
-
+		putchar(i);
+		i++;
 	}
 
-	for (upper_case = "A"; upper_case <="Z"; upper_case++)
+	while (j < 91)
 	{
-		putchar(upper_case);
+		putchar(j);
+		j++;
 	}
 
-	putchar("\n");
+	putchar(10);
 
 	return (0);
-
 }
