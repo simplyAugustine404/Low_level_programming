@@ -9,13 +9,15 @@ int  main(void)
 {
 	int i;
 
-	for (i = 48; i <= 57; i++)
+	i = 48;
+
+	while (i < 58)
 	{
 		putchar(i);
+		i++;
 	}
 
-	putchar("\n");
+	putchar(10);
 
 	return (0);
-
 }
