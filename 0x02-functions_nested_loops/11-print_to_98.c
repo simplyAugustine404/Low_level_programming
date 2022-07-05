@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * print_to_8 - prints all umbers up to 98 from given start point
+ * print_to_98 - prints all numbers up to 98 from given start point
  * @n: first parameter
  *
  * Return:
@@ -12,13 +12,10 @@ void print_to_98(int n)
 {
 	if (n <= 98)
 	{
-		while (n<= 98)
+		while ( n<= 98)
 		{
 			printf("%d", n);
 			n++;
-
-				if (n == 98)
-					continue;
 			printf(",");
 		}
 		printf("\n");
@@ -29,8 +26,6 @@ void print_to_98(int n)
 		{
 			printf("%d", n);
 			n--;
-			if (n == 98)
-				continue;
 			printf(",");
 		}
 		printf("\n");
