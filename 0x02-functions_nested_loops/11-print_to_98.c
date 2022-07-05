@@ -2,38 +2,31 @@
 #include <stdio.h>
 
 /**
- * print_to_98 - prints all numbers up to 98 from given start point
+ * print_to_98 - prints all numbers up to 98
  * @n: first parameter
- *
- * Return:
- * Nothing
+ * Return: nothing
  */
 void print_to_98(int n)
 {
 	if (n <= 98)
 	{
-		while (n <= 98)
+		for (; n <= 98; n++)
 		{
 			printf("%d", n);
-			n++;
-			if (n == 99)
+			if (n == 98)
 				continue;
-			printf(",");
-			printf(" ");
+			printf(" ,");
 		}
 		printf("\n");
 	}
 	else
 	{
-		while (n >= 98)
+		for (; n >= 98; n--)
 		{
 			printf("%d", n);
-			n--;
-			if (n == 99)
+			if (n == 98)
 				continue;
-			printf(",");
-			printf(" ");
+			printf(" ,");
 		}
-		printf("\n");
 	}
 }
