@@ -1,5 +1,5 @@
-#include "main"
-#include <stdio.h"
+#include "main.h"
+#include <stdio.h>
 
 /**
  * print_to_8 - prints all umbers up to 98 from given start point
