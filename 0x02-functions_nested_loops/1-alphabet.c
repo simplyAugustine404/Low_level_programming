@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * - check the code
+ * 
  *
- *print_alphabet- function to rptin out the alphabet
+ * function print_alphabet- function to rptin out the alphabet
  * Return: Always 0.
  */
 
