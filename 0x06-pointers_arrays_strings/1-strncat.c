@@ -4,6 +4,7 @@
  * _strncat - concatenates two strings
  * @dest: destination string
  * @src: source string
+ * @n: amount of bytes from source
  * Return: the ppointer to the dest
  */
 
