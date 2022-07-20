@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * -strlen_recursion - returns the lengthj of a string
+ *  -strlen_recursion - returns the lengthj of a string
  *  @s: string
  *  Return: length
  */
