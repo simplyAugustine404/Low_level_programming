@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * _pow_rceursion - returns the value of x raised to y
+ * _pow_recursion - returns the value of x raised to y
  * @x: base
  * @y: power
  * Return: power
